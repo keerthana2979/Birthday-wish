@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A birthday surprise for you ♡</title>
+<style>
+:root{--red:#b63f52;--deep:#7f2737;--pink:#efb2bd;--cream:#fffdf8;--brown:#70432f;--gingham1:#f2c8c2;--gingham2:#fff7f0}*{box-sizing:border-box}body{margin:0;padding:18px;min-height:100vh;display:grid;place-items:center;background:repeating-conic-gradient(var(--gingham1) 0 25%,var(--gingham2) 0 50%) 0/28px 28px;color:#642d32;font-family:'Trebuchet MS',system-ui,sans-serif}.card{position:relative;width:min(760px,100%);min-height:570px;padding:clamp(22px,5vw,46px);border:8px solid #fff;border-radius:32px;background:var(--cream);box-shadow:0 10px 35px #63352a22;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:hidden}.card:before{content:"";position:absolute;inset:7px;border:1px solid #edc9c5;border-radius:23px;pointer-events:none}.hidden{display:none!important}h1{font-size:clamp(28px,5vw,43px);line-height:1.15;color:var(--red);margin:12px 0}p{font-size:18px;line-height:1.55;max-width:580px}.hint{font-size:14px;color:#a06a70}.character-illustration{width:clamp(145px,32vw,220px);height:auto;margin:2px auto 10px;overflow:visible}.letter-character{display:block;width:clamp(170px,48vw,300px);height:auto;max-height:340px;object-fit:contain;margin:2px auto 12px;border-radius:12px}.character-photo{display:block;width:clamp(175px,42vw,290px);height:auto;max-height:300px;object-fit:contain;margin:2px auto 10px}.crying-wrap{position:relative;width:clamp(175px,42vw,290px);margin:2px auto 10px;animation:cryroll 1.25s ease-in-out infinite alternate;transform-origin:center}.crying-photo{display:block;width:100%;height:auto;max-height:300px;object-fit:contain}.falling-tear{position:absolute;width:8px;height:13px;background:#63c9f0;border:1px solid #3299c7;border-radius:60% 40% 60% 40%;transform:rotate(35deg);opacity:0;animation:fallingtear .85s linear infinite}.falling-tear.one{left:35%;top:55%;animation-delay:0s}.falling-tear.two{left:61%;top:53%;animation-delay:.35s}.falling-tear.three{left:39%;top:57%;animation-delay:.55s}@keyframes fallingtear{0%{opacity:0;transform:translateY(-2px) rotate(35deg) scale(.7)}15%{opacity:1}85%{opacity:1}100%{opacity:0;transform:translateY(35px) rotate(35deg) scale(1)}}.tear{animation:teardrop .55s ease-in-out infinite alternate}@keyframes cryroll{0%{transform:rotate(-13deg) translateX(-5px)}100%{transform:rotate(15deg) translateX(5px)}}@keyframes teardrop{from{transform:translateY(-1px)}to{transform:translateY(8px)}}.btn{border:2px solid #fff;background:var(--red);color:white;font-size:18px;font-weight:800;padding:12px 28px;border-radius:30px;box-shadow:0 4px 0 var(--deep);cursor:pointer}.btn.light{background:#efb2bd;color:#68242e;box-shadow:0 4px 0 #c77e8b}.buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px}.gift-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(8px,2vw,18px);width:100%;max-width:600px;margin:24px 0}.gift{border:0;background:transparent;padding:5px;cursor:pointer;color:var(--red);font-weight:800}.gift:hover .present{transform:translateY(-7px) rotate(-2deg)}.present{position:relative;width:100%;max-width:165px;aspect-ratio:1.06;margin:14px auto 10px;transition:transform .2s;filter:drop-shadow(0 5px 2px #7b303322)}.boxbody{position:absolute;left:12%;right:12%;top:32%;bottom:4%;border:2px solid #9c3046;border-radius:4px;background:linear-gradient(90deg,#d56c83 0 22%,#f3c6ce 22% 48%,#c95a72 48% 72%,#e9a7b5 72%)}.lid{position:absolute;left:5%;right:5%;top:22%;height:20%;border:2px solid #9c3046;border-radius:5px;background:linear-gradient(90deg,#e6a0ad 0 27%,#f8d9de 27% 52%,#b7435b 52% 76%,#f1c0c9 76%);z-index:2}.ribbon-v{position:absolute;top:22%;bottom:4%;left:44%;width:15%;background:#fff0f1;border-left:1px solid #d77b8e;border-right:1px solid #d77b8e;z-index:3}.bow{position:absolute;top:2%;left:27%;width:46%;height:35%;z-index:4}.bow:before,.bow:after{content:"";position:absolute;top:20%;width:47%;height:48%;border:2px solid #9c3046;background:linear-gradient(135deg,#f8dce1,#bf4a63);border-radius:70% 20% 70% 20%;transform:rotate(28deg)}.bow:after{right:0;transform:scaleX(-1) rotate(28deg)}.bow i{position:absolute;left:39%;top:32%;width:24%;height:24%;background:#e6a0ae;border:2px solid #9c3046;border-radius:50%;z-index:2}.gift small{display:block;font-size:14px;margin-top:5px}.editable{width:100%;max-width:570px;min-height:120px;padding:16px;border:2px dashed #d98e9b;border-radius:14px;background:#fff;text-align:left;line-height:1.65;outline:none;white-space:pre-wrap}.editable:empty:before{content:attr(data-placeholder);color:#b38c91}.wish-card{background:#fff4f1;border:1px solid #edb5bd;border-radius:17px;padding:10px;min-width:0}.wish-card .present{width:78%;max-width:105px;margin:6px auto}.wish-card .editable{font-size:14px;min-height:100px;padding:10px}.footer{font-size:12px;color:#a36b73;margin-top:18px}
+/* scrapbook memory album inspired by the reference layout */
+.album-page{width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative;z-index:1}
+.album-kicker{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#b77c8a;margin:0 0 3px}
+.album-heading{font-family:Georgia,'Times New Roman',serif!important;font-weight:500!important;font-size:clamp(28px,5vw,38px)!important;color:#5c4143!important;margin:0 0 2px!important}
+.album-subtitle{font-size:13px!important;color:#ad9a9b;margin:0 auto 22px!important}
+.album-stage{width:min(430px,100%);display:grid;grid-template-columns:38px minmax(0,1fr) 38px;align-items:center;gap:7px}
+.album-arrow{border:0;width:38px;height:38px;border-radius:50%;background:#fffaf8;color:#b77c8a;box-shadow:0 2px 8px #9b68751c;font-size:22px;cursor:pointer}
+.memory-card{position:relative;min-height:380px;background:#fffefa;border:1px solid #f2e8e2;border-radius:16px;padding:23px 20px 19px;box-shadow:0 12px 26px #8d6c5c17;transform:rotate(-1deg);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;overflow:visible}
+.memory-card:before{content:'';position:absolute;width:88px;height:18px;top:-7px;left:calc(50% - 44px);background:#f5d5d9cc;transform:rotate(-2deg);border-radius:3px;opacity:.75}
+.memory-sticker{position:absolute;left:-13px;top:14px;width:31px;height:31px;border-radius:50%;background:#f9e4e9;border:2px dotted #d8a5b3;display:grid;place-items:center;font-size:16px}
+.memory-art{height:150px;width:100%;display:grid;place-items:center;margin:4px 0 8px;position:relative}
+.memory-character{display:block;max-width:88%;max-height:150px;width:auto;height:auto;object-fit:contain;border-radius:0;mix-blend-mode:normal;filter:drop-shadow(0 3px 2px #eadbd1)}
+.memory-art .mini-heart{position:absolute;color:#d65c78;font-size:20px}
+.memory-art .heart-a{top:16px;left:23%}.memory-art .heart-b{right:20%;top:33px}
+.memory-title{font-size:clamp(24px,4.7vw,31px);font-weight:900;color:#342527;line-height:1.05;margin:5px 0 20px;text-transform:uppercase;letter-spacing:-.7px}
+.memory-rule{height:1px;background:#bca9a4;width:100%;margin:0 0 14px}
+.memory-number{font-size:10px;letter-spacing:3px;color:#a98b8e;margin:0 0 9px}
+.memory-caption{font-family:'Trebuchet MS',sans-serif;font-style:italic;font-weight:600;font-size:14px!important;line-height:1.7!important;color:#554447;margin:0 auto!important;min-height:48px}
+.album-dots{display:flex;gap:8px;justify-content:center;margin:10px 0 2px}
+.album-dot{width:8px;height:8px;border:0;border-radius:50%;padding:0;background:#e7c7cf;cursor:pointer}
+.album-dot.active{background:#c85f7b;transform:scale(1.18)}
+.album-cta{margin-top:8px;letter-spacing:2px;font-size:12px!important;padding:12px 24px!important;background:#dc91a5!important;box-shadow:0 4px 0 #c9788f!important}
+@media(max-width:480px){.album-stage{grid-template-columns:30px minmax(0,1fr) 30px;gap:4px}.album-arrow{width:30px;height:30px;font-size:19px}.memory-card{min-height:350px;padding:20px 14px 16px}.memory-art{height:132px}.memory-character{max-height:132px;max-width:92%}.memory-title{margin-bottom:16px}.album-subtitle{margin-bottom:12px!important}}
+
+
+/* Interactive gift page */
+.gift-board{width:100%;position:relative;z-index:1;border:2px solid #f0c6bf;border-radius:24px;background:#fffefa;padding:clamp(20px,4vw,34px) clamp(12px,3vw,24px);box-shadow:0 8px 25px #7b303311}
+.gift-board h1{font-family:'Trebuchet MS',system-ui,sans-serif;font-size:clamp(25px,5vw,39px);font-weight:900;color:#8d2936;transform:rotate(-2deg);margin:8px 0 18px}
+.gift-board .gift-prompt{font-size:clamp(24px,5vw,36px);font-weight:900;color:#a72d3b;margin:14px 0 0;align-self:flex-start;letter-spacing:.5px}
+.gift-board .gift-grid{margin:20px auto 8px;gap:clamp(5px,2vw,18px)}
+.gift-board .gift{padding:0;min-width:0}
+.gift-board .gift small{font-size:clamp(11px,2.7vw,14px);letter-spacing:1px;color:#8d2936}
+.gift-board .present{max-width:180px;aspect-ratio:1.02}
+.gift-open-card{width:100%;max-width:600px;min-height:570px;border:8px solid #fff;border-radius:5px;background:#fffdf8;padding:clamp(22px,5vw,36px);box-shadow:0 8px 25px #8f34411c;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center}.gift-open-card:before{content:"";position:absolute;inset:7px;border:1px solid #edc9c5;pointer-events:none}.gift-open-card h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(29px,5vw,40px);color:#963743;font-weight:700;line-height:1.15;margin:12px 0}.gift-open-card .hint{font-size:14px;color:#a06a70;margin:0 0 8px}.gift-open-card .album-kicker{margin-top:4px}.gift-open-card .buttons{margin-top:12px}
+.opening-present{width:190px;height:178px;position:relative;margin:12px auto 20px}
+.opening-present .present{width:100%;height:100%;margin:0;max-width:none}
+.opening-present .lid-group{transform-box:fill-box;transform-origin:50% 85%;transition:transform .7s cubic-bezier(.2,.75,.25,1)}
+.opening-present.open .lid-group{transform:translateY(-27px) rotate(-13deg)}
+.gift-illustration{width:100%;height:100%;display:block;overflow:visible;filter:drop-shadow(0 4px 2px #8b304120)}
+@keyframes lid-open{to{transform:translateY(-35px) rotate(-18deg)}}
+@keyframes bow-pop{to{transform:translateY(-35px) rotate(-14deg)}}
+.gift-message{min-height:155px;width:100%;max-width:500px;margin:12px auto;background:#fff6f0;border:1px solid #efd9d0;border-radius:17px;padding:20px;text-align:center;line-height:1.7;white-space:pre-wrap;outline:none;color:#231b1b;font-size:clamp(16px,3.6vw,20px)}
+.gift-message:empty:before{content:attr(data-placeholder);color:#b38c91}.gift-open-card #gift-title{font-family:Georgia,"Times New Roman",serif;color:#963743;text-transform:none}.gift-open-card .opening-present{filter:drop-shadow(0 5px 2px #8b304122)}
+
+@media(max-width:480px){body{padding:8px}.card{min-height:84vh;padding:24px 15px}.gift-grid{gap:4px}.gift{padding:2px}.gift small{font-size:12px}.wish-card{padding:6px}.wish-card .editable{font-size:12px;padding:7px}}
+
+
+/* Final birthday wish card inspired by the reference: gingham trim, warm orange corner, Mocha bear */
+.final-card{position:relative;width:100%;min-height:520px;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:clamp(28px,6vw,55px) clamp(18px,5vw,42px);background:repeating-conic-gradient(#f1c8c1 0 25%,#fff7f0 0 50%) 0/22px 22px;border-radius:18px;isolation:isolate}
+.final-card:before{content:"";position:absolute;inset:12px 12px 12px 22px;background:#f7fbfa;border:2px solid #ead5cd;border-radius:32px 28px 20px 30px;z-index:-1;box-shadow:0 3px 0 #fff inset}
+.final-card:after{content:"";position:absolute;left:-45px;top:-35px;width:180px;height:250px;background:#e94b24;border:3px solid #f2b7a3;border-radius:0 0 65px 0;z-index:-1;box-shadow:inset -5px 0 0 #f5a184}
+.final-message{width:100%;max-width:560px;min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;outline:none;color:#8d2638;font-family:'Trebuchet MS',system-ui,sans-serif;font-weight:900;font-size:clamp(27px,6vw,47px);line-height:1.28;letter-spacing:.2px;padding:20px 8px 75px;white-space:pre-wrap;overflow-wrap:anywhere;text-shadow:0 1px #f4d6d6}
+.final-mocha{position:absolute;width:clamp(90px,22vw,155px);height:auto;object-fit:contain;right:18px;bottom:58px;max-height:155px;filter:drop-shadow(0 2px 1px #8c554422)}
+.final-controls{position:absolute;left:12px;right:12px;bottom:12px;z-index:2;margin:0!important}
+@media(max-width:480px){.final-card{min-height:500px;padding:20px 16px}.final-card:before{inset:10px}.final-message{font-size:clamp(25px,7vw,35px);padding:10px 4px 95px;min-height:250px}.final-mocha{right:13px;bottom:68px;width:105px}.final-controls .btn{font-size:13px;padding:10px 14px}}
+
+/* hanging photo scrapbook page */
+.photo-page{width:100%;position:relative;z-index:1;padding:12px 4px 8px}
+.photo-page h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(31px,6vw,46px);color:#70424a;font-weight:600;margin:12px 0 28px;letter-spacing:.3px}
+.photo-line{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 22px;width:100%;max-width:590px;margin:0 auto 20px;padding:18px 8px 8px}
+.photo-line:before,.photo-line:after{content:'';position:absolute;left:-8%;right:-8%;height:2px;background:#51413b;z-index:0;transform:rotate(-2deg)}
+.photo-line:before{top:12px}.photo-line:after{top:53%;transform:rotate(2deg)}
+.photo-frame{position:relative;z-index:1;min-width:0;background:#fff;padding:8px 8px 18px;box-shadow:0 5px 12px #5a3a3420;transform:rotate(-2deg);border:7px solid #c9dcae;min-height:180px}
+.photo-frame:nth-child(2){border-color:#a9d6e5;transform:rotate(2deg);margin-top:12px}
+.photo-frame:nth-child(3){border-color:#e9978c;transform:rotate(2deg)}
+.photo-frame:nth-child(4){border-color:#e8b8d0;transform:rotate(-5deg);margin-top:8px}
+.photo-frame:before{content:'〰';position:absolute;top:-24px;left:calc(50% - 17px);font-size:34px;line-height:22px;color:#d6a26b;text-shadow:1px 1px #60422f;z-index:3;transform:rotate(90deg)}
+.photo-frame img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;background:#faf8f6;border:1px solid #ddd;cursor:pointer}
+.photo-frame input{display:none}.photo-prompt{display:block;font-size:11px;color:#a77c80;margin-top:7px;cursor:pointer;letter-spacing:.5px}
+.photo-help{font-size:13px!important;color:#a06a70;margin:0 auto 12px!important}
+@media(max-width:420px){.photo-line{gap:25px 13px;padding-left:3px;padding-right:3px}.photo-frame{padding:5px 5px 14px;border-width:5px;min-height:140px}.photo-frame:before{font-size:28px;top:-21px}.photo-page h1{margin-bottom:20px}}
+
+
+#save-changes{position:fixed;right:14px;top:14px;z-index:9999;background:#b63f52;color:#fff;border:2px solid #fff;border-radius:999px;padding:11px 17px;font:700 14px 'Trebuchet MS',system-ui,sans-serif;box-shadow:0 3px 0 #7f2737;cursor:pointer}
+#save-status{position:fixed;right:14px;top:62px;z-index:9999;background:#fffdf8;color:#7f2737;border:1px solid #efb2bd;border-radius:12px;padding:7px 11px;font-size:12px;display:none;box-shadow:0 3px 12px #63352a22}
+@media(max-width:480px){#save-changes{top:8px;right:8px;padding:9px 12px;font-size:12px}#save-status{top:52px;right:8px}}
+</style></head><body><button id="save-changes" type="button" onclick="saveAllChanges()">💾 SAVE CHANGES</button><div id="save-status" role="status" aria-live="polite">Changes saved on this device ✓</div><main class="card">
+<section id="intro"><img class="character-photo" src="assets/birthday-character.png" alt="Birthday bear wearing a party hat and holding a balloon"><p class="hint">♡ a little surprise for you ♡</p><h1 contenteditable="false" data-save="heading">I made something for you!</h1><p contenteditable="false" data-save="intro">Do you wanna see it?</p><div class="buttons"><button class="btn" onclick="show('excited')">YES ♡</button><button class="btn light" onclick="show('nope')">NO ♡</button></div></section>
+<section id="nope" class="hidden"><div class="crying-wrap" role="img" aria-label="Crying bear with falling tears"><img class="crying-photo" src="assets/crying-character.png" alt="Crying bear"><span class="falling-tear one"></span><span class="falling-tear two"></span><span class="falling-tear three"></span></div><h1>HOW DARE YOU?!</h1><p>I'm crying now! 🥺💧</p><button class="btn" onclick="show('intro')">TRY AGAIN ↻</button></section>
+<section id="excited" class="hidden"><img class="character-photo" src="assets/yeah-bear.jpg" alt="Bear celebrating with the word YEAH"><h1>Are you really excited?</h1><p>There is a little surprise for you!</p><div class="buttons"><button class="btn" onclick="show('album')">YES!!</button><button class="btn" onclick="show('album')">YES YES!!</button></div></section>
+<section id="album" class="hidden"><div class="album-page"><p class="album-kicker">♡ OUR ALBUM ♡</p><h1 class="album-heading">Some cool album for you</h1><p class="album-subtitle">a few of my favourite moments with you ♡</p><div class="album-stage"><button class="album-arrow" aria-label="Previous memory" onclick="changeMemory(-1)">←</button><article class="memory-card"><span class="memory-sticker">✿</span><div class="memory-art" id="memory-art"><span class="mini-heart heart-a">♥</span><img class="memory-character" id="memory-character" src="assets/memory-bouquet-cat.jpg" alt="Cat holding a bouquet"><span class="mini-heart heart-b">♥</span></div><h2 class="memory-title" id="memory-title">HAPPY BIRTHDAY</h2><div class="memory-rule"></div><p class="memory-number" id="memory-number">MEMORY 01 / 03</p><p class="memory-caption" id="memory-caption" contenteditable="false" data-save="memory-caption-0">the way you smile in every photo — i hope you know it lights up the room.</p></article><button class="album-arrow" aria-label="Next memory" onclick="changeMemory(1)">→</button></div><div class="album-dots" aria-label="Choose memory"><button class="album-dot active" aria-label="Memory 1" onclick="setMemory(0)"></button><button class="album-dot" aria-label="Memory 2" onclick="setMemory(1)"></button><button class="album-dot" aria-label="Memory 3" onclick="setMemory(2)"></button></div><button class="btn album-cta" onclick="show('gifts')">OPEN YOUR GIFTS →</button></div></section>
+<section id="gifts" class="hidden">
+<div class="gift-board">
+<p class="album-kicker">♡ A LITTLE SURPRISE ♡</p>
+<h1>Each gift has something for you...</h1>
+<div class="gift-grid">
+<button class="gift" onclick="openGift(0)" aria-label="Open gift one"><div class="present"><svg class="gift-illustration" viewBox="0 0 180 170" role="img" aria-label="Pink present with a large pink ribbon bow">
+  <ellipse cx="90" cy="155" rx="48" ry="4" fill="#d9bfc0" opacity=".55"/>
+  <!-- box sides -->
+  <path d="M28 66 L91 82 L91 145 L38 132 Z" fill="#e6a0ad" stroke="#b94e63" stroke-width="1.2"/>
+  <path d="M91 82 L151 65 L144 132 L91 145 Z" fill="#c85f78" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- front/side highlights -->
+  <path d="M54 73 L68 77 L68 139 L54 136 Z" fill="#b3445a" opacity=".9"/>
+  <path d="M112 76 L126 72 L119 139 L105 142 Z" fill="#a7334c" opacity=".85"/>
+  <!-- lid and bow move together when the gift opens -->
+  <g class="lid-group">
+  <path d="M18 56 L89 43 L161 56 L91 75 Z" fill="#f7d8dd" stroke="#c96a7c" stroke-width="1.5"/>
+  <path d="M18 56 L91 75 L91 88 L17 69 Z" fill="#df8b9a" stroke="#c65a70" stroke-width="1.2"/>
+  <path d="M91 75 L161 56 L160 70 L91 88 Z" fill="#c05268" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- ribbon down the box -->
+  <path d="M78 73 L96 78 L96 144 L78 140 Z" fill="#fff1f0"/>
+  <path d="M79 75 L87 77 L87 142 L79 140 Z" fill="#f2c4cc"/>
+  <path d="M83 44 L100 42 L98 86 L82 87 Z" fill="#f9e3e5"/>
+  <!-- large dimensional bow loops -->
+    <path d="M87 45 C66 4 26 6 35 26 C41 40 65 45 87 48 Z" fill="#d65c78" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M87 45 C67 18 43 17 42 24 C50 33 70 42 87 48 Z" fill="#f4b8c4" opacity=".85"/>
+    <path d="M92 44 C101 5 145 1 144 20 C142 35 115 44 92 49 Z" fill="#b83c57" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M94 44 C110 20 132 15 137 20 C128 31 111 41 94 48 Z" fill="#e78ca0"/>
+    <path d="M86 48 C55 52 31 45 28 34 C43 42 61 42 87 43 Z" fill="#d56c83" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M94 47 C119 51 142 42 147 31 C131 40 112 42 94 43 Z" fill="#c94b65" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M87 48 C80 61 72 70 69 76 C88 71 97 60 99 48 Z" fill="#a7334c" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M95 48 C101 60 111 68 116 72 C115 57 106 49 95 44 Z" fill="#e78ca0" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M80 42 L101 41 L102 53 L81 54 Z" fill="#a63850" stroke="#9c3046" stroke-width="1.4"/>
+    <path d="M82 43 L90 43 L90 53 L82 53 Z" fill="#e8a2b1"/>
+  </g>
+</svg></div><small>GIFT 01</small></button>
+<button class="gift" onclick="openGift(1)" aria-label="Open gift two"><div class="present"><svg class="gift-illustration" viewBox="0 0 180 170" role="img" aria-label="Pink present with a large pink ribbon bow">
+  <ellipse cx="90" cy="155" rx="48" ry="4" fill="#d9bfc0" opacity=".55"/>
+  <!-- box sides -->
+  <path d="M28 66 L91 82 L91 145 L38 132 Z" fill="#e6a0ad" stroke="#b94e63" stroke-width="1.2"/>
+  <path d="M91 82 L151 65 L144 132 L91 145 Z" fill="#c85f78" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- front/side highlights -->
+  <path d="M54 73 L68 77 L68 139 L54 136 Z" fill="#b3445a" opacity=".9"/>
+  <path d="M112 76 L126 72 L119 139 L105 142 Z" fill="#a7334c" opacity=".85"/>
+  <!-- lid and bow move together when the gift opens -->
+  <g class="lid-group">
+  <path d="M18 56 L89 43 L161 56 L91 75 Z" fill="#f7d8dd" stroke="#c96a7c" stroke-width="1.5"/>
+  <path d="M18 56 L91 75 L91 88 L17 69 Z" fill="#df8b9a" stroke="#c65a70" stroke-width="1.2"/>
+  <path d="M91 75 L161 56 L160 70 L91 88 Z" fill="#c05268" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- ribbon down the box -->
+  <path d="M78 73 L96 78 L96 144 L78 140 Z" fill="#fff1f0"/>
+  <path d="M79 75 L87 77 L87 142 L79 140 Z" fill="#f2c4cc"/>
+  <path d="M83 44 L100 42 L98 86 L82 87 Z" fill="#f9e3e5"/>
+  <!-- large dimensional bow loops -->
+    <path d="M87 45 C66 4 26 6 35 26 C41 40 65 45 87 48 Z" fill="#d65c78" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M87 45 C67 18 43 17 42 24 C50 33 70 42 87 48 Z" fill="#f4b8c4" opacity=".85"/>
+    <path d="M92 44 C101 5 145 1 144 20 C142 35 115 44 92 49 Z" fill="#b83c57" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M94 44 C110 20 132 15 137 20 C128 31 111 41 94 48 Z" fill="#e78ca0"/>
+    <path d="M86 48 C55 52 31 45 28 34 C43 42 61 42 87 43 Z" fill="#d56c83" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M94 47 C119 51 142 42 147 31 C131 40 112 42 94 43 Z" fill="#c94b65" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M87 48 C80 61 72 70 69 76 C88 71 97 60 99 48 Z" fill="#a7334c" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M95 48 C101 60 111 68 116 72 C115 57 106 49 95 44 Z" fill="#e78ca0" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M80 42 L101 41 L102 53 L81 54 Z" fill="#a63850" stroke="#9c3046" stroke-width="1.4"/>
+    <path d="M82 43 L90 43 L90 53 L82 53 Z" fill="#e8a2b1"/>
+  </g>
+</svg></div><small>GIFT 02</small></button>
+<button class="gift" onclick="openGift(2)" aria-label="Open gift three"><div class="present"><svg class="gift-illustration" viewBox="0 0 180 170" role="img" aria-label="Pink present with a large pink ribbon bow">
+  <ellipse cx="90" cy="155" rx="48" ry="4" fill="#d9bfc0" opacity=".55"/>
+  <!-- box sides -->
+  <path d="M28 66 L91 82 L91 145 L38 132 Z" fill="#e6a0ad" stroke="#b94e63" stroke-width="1.2"/>
+  <path d="M91 82 L151 65 L144 132 L91 145 Z" fill="#c85f78" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- front/side highlights -->
+  <path d="M54 73 L68 77 L68 139 L54 136 Z" fill="#b3445a" opacity=".9"/>
+  <path d="M112 76 L126 72 L119 139 L105 142 Z" fill="#a7334c" opacity=".85"/>
+  <!-- lid and bow move together when the gift opens -->
+  <g class="lid-group">
+  <path d="M18 56 L89 43 L161 56 L91 75 Z" fill="#f7d8dd" stroke="#c96a7c" stroke-width="1.5"/>
+  <path d="M18 56 L91 75 L91 88 L17 69 Z" fill="#df8b9a" stroke="#c65a70" stroke-width="1.2"/>
+  <path d="M91 75 L161 56 L160 70 L91 88 Z" fill="#c05268" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- ribbon down the box -->
+  <path d="M78 73 L96 78 L96 144 L78 140 Z" fill="#fff1f0"/>
+  <path d="M79 75 L87 77 L87 142 L79 140 Z" fill="#f2c4cc"/>
+  <path d="M83 44 L100 42 L98 86 L82 87 Z" fill="#f9e3e5"/>
+  <!-- large dimensional bow loops -->
+    <path d="M87 45 C66 4 26 6 35 26 C41 40 65 45 87 48 Z" fill="#d65c78" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M87 45 C67 18 43 17 42 24 C50 33 70 42 87 48 Z" fill="#f4b8c4" opacity=".85"/>
+    <path d="M92 44 C101 5 145 1 144 20 C142 35 115 44 92 49 Z" fill="#b83c57" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M94 44 C110 20 132 15 137 20 C128 31 111 41 94 48 Z" fill="#e78ca0"/>
+    <path d="M86 48 C55 52 31 45 28 34 C43 42 61 42 87 43 Z" fill="#d56c83" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M94 47 C119 51 142 42 147 31 C131 40 112 42 94 43 Z" fill="#c94b65" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M87 48 C80 61 72 70 69 76 C88 71 97 60 99 48 Z" fill="#a7334c" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M95 48 C101 60 111 68 116 72 C115 57 106 49 95 44 Z" fill="#e78ca0" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M80 42 L101 41 L102 53 L81 54 Z" fill="#a63850" stroke="#9c3046" stroke-width="1.4"/>
+    <path d="M82 43 L90 43 L90 53 L82 53 Z" fill="#e8a2b1"/>
+  </g>
+</svg></div><small>GIFT 03</small></button>
+</div>
+<p class="gift-prompt">CLICK ON ♡</p>
+
+<div class="buttons"><button class="btn light" onclick="show('album')">← ALBUM</button><button class="btn" onclick="show('letter')">OPEN YOUR LETTER →</button></div>
+</div>
+</section>
+<section id="gift-open" class="hidden">
+<div class="gift-open-card">
+<p class="album-kicker">♡ A GIFT FOR YOU ♡</p>
+<div class="opening-present" id="opening-present"><div class="present"><svg class="gift-illustration" viewBox="0 0 180 170" role="img" aria-label="Pink present with a large pink ribbon bow">
+  <ellipse cx="90" cy="155" rx="48" ry="4" fill="#d9bfc0" opacity=".55"/>
+  <!-- box sides -->
+  <path d="M28 66 L91 82 L91 145 L38 132 Z" fill="#e6a0ad" stroke="#b94e63" stroke-width="1.2"/>
+  <path d="M91 82 L151 65 L144 132 L91 145 Z" fill="#c85f78" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- front/side highlights -->
+  <path d="M54 73 L68 77 L68 139 L54 136 Z" fill="#b3445a" opacity=".9"/>
+  <path d="M112 76 L126 72 L119 139 L105 142 Z" fill="#a7334c" opacity=".85"/>
+  <!-- lid and bow move together when the gift opens -->
+  <g class="lid-group">
+  <path d="M18 56 L89 43 L161 56 L91 75 Z" fill="#f7d8dd" stroke="#c96a7c" stroke-width="1.5"/>
+  <path d="M18 56 L91 75 L91 88 L17 69 Z" fill="#df8b9a" stroke="#c65a70" stroke-width="1.2"/>
+  <path d="M91 75 L161 56 L160 70 L91 88 Z" fill="#c05268" stroke="#a43b50" stroke-width="1.2"/>
+  <!-- ribbon down the box -->
+  <path d="M78 73 L96 78 L96 144 L78 140 Z" fill="#fff1f0"/>
+  <path d="M79 75 L87 77 L87 142 L79 140 Z" fill="#f2c4cc"/>
+  <path d="M83 44 L100 42 L98 86 L82 87 Z" fill="#f9e3e5"/>
+  <!-- large dimensional bow loops -->
+    <path d="M87 45 C66 4 26 6 35 26 C41 40 65 45 87 48 Z" fill="#d65c78" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M87 45 C67 18 43 17 42 24 C50 33 70 42 87 48 Z" fill="#f4b8c4" opacity=".85"/>
+    <path d="M92 44 C101 5 145 1 144 20 C142 35 115 44 92 49 Z" fill="#b83c57" stroke="#9c3046" stroke-width="1.5"/>
+    <path d="M94 44 C110 20 132 15 137 20 C128 31 111 41 94 48 Z" fill="#e78ca0"/>
+    <path d="M86 48 C55 52 31 45 28 34 C43 42 61 42 87 43 Z" fill="#d56c83" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M94 47 C119 51 142 42 147 31 C131 40 112 42 94 43 Z" fill="#c94b65" stroke="#9c3046" stroke-width="1.3"/>
+    <path d="M87 48 C80 61 72 70 69 76 C88 71 97 60 99 48 Z" fill="#a7334c" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M95 48 C101 60 111 68 116 72 C115 57 106 49 95 44 Z" fill="#e78ca0" stroke="#9c3046" stroke-width="1.2"/>
+    <path d="M80 42 L101 41 L102 53 L81 54 Z" fill="#a63850" stroke="#9c3046" stroke-width="1.4"/>
+    <path d="M82 43 L90 43 L90 53 L82 53 Z" fill="#e8a2b1"/>
+  </g>
+</svg></div></div>
+<h1 id="gift-title" contenteditable="false" data-save="gift-title-0">...</h1>
+
+<div id="gift-text" class="gift-message" contenteditable="false" data-placeholder="..."></div>
+<div class="buttons"><button class="btn light" onclick="show('gifts')">← ALL GIFTS</button><button class="btn" id="next-gift-btn" onclick="nextGift()">NEXT GIFT →</button></div>
+</div>
+</section>
+<section id="letter" class="hidden">
+<h1 contenteditable="false" data-save="letter-title">A letter, just for you ♡</h1>
+<img class="letter-character" src="assets/letter-white-bear.png" alt="White bear writing a letter">
+
+<div id="letter-text" class="editable" contenteditable="false" data-save="letter-text" style="white-space:pre-wrap;max-height:52vh;overflow-y:auto;text-align:left">Dear ______,
+
+Enaku sathiyama ippadi oru friendship kedaikum nu naan ethriye paakala da.
+
+Nee en life la vanthapo "yaru da ivan" nu thaan nenachen.Ippo paatha "ivan illama oru naal kooda bore adikuthu" nu aayiduchu. Idhu thaan pola friendship trap. Nee vanthu en life ah full ah maathita da.
+
+Un kooda irukum pothu mattum thaan naan naan ah iruka mudiyum. Vera yar munnadiyum "ayyo ipdi pesina enna nenaipanga" nu yosipen. Un kitta mattum, en mokka joke, en overthinking, ellathayum olaritu irupan. Nee yum frd ahh iruka paavathuku ketutu irupaa 😅😅, aprom enna ye kalaaippa.
+
+Un kooda pesuna time pogurathaye theriyathu da. Oru chinna vishayathuku pesalam nu start panni, kadasiya 2 mani neram pesi irupom. Call la pesi pesi phone heat aayidum, aana pesi mudiyathu. Antha maari neraya memory iruku da namakulla.
+
+Aana oru vishayam mattum unmai da, unakku thimiru konjam jaasthi thaan, "naane periya aalu" maari oru buildup vera. Paakavanga nenaipanga periya aalu nu, aana enakku theriyum nee oru periya comedy piece nu. Unmaiya solla pona unnaya maari oru comedy piece ahh naa pathethe illa periya ivan maari build up pannuva unnaku tha ela theriyum maari but unnaku avlo la scene illa 🤭🤭 nee comedy piece tha 🤣
+
+Nee enaku friend mattum illa da. Free therapist, comedy show, 24/7 customer care, ellaame nee thaan. Athukunu salary la kekatha thara maata 😅. Enakku kovam vantha nee thaan samadhanam pannuvanu paatha innum kadupethuva enaya ragebait panraku award kudukanumna unnaku thanda atha kudukanum
+
+Oru vishayam mattum sollanum, nee eppo enna vittu ponaalum, en memory la nee apdiye irupa. Naan unna miss panna maaten nu poi solla maaten. Miss pannuven, aana miss pannitu kooda unna thittuven. Athu thaan namma friendship. Naa vera ooruku ponaalum namma friendship mattum apdiye thaan irukum.
+
+Ipdi ye iru. Romba nalla paiyan nu buildup kuduka maaten, konjam over buildup thaan. Aana enaku nee romba special. En life la yar vanthalum ponaalum, nee mattum epovum oru special place la thaan irupa. Unna maari oru friend kedaikurathu romba kashtam, athunaala unna naan miss panna maaten.
+
+Innimel sanda potu pesave koodathu nu naanu veerappa sapatham la edupa, aana ena atha ennala 1 day kooda follow panna mudiyathu. Un mela kovam vanthaa kooda, konja nerathula thirumba un kitta pesama iruka mudiyathu. Sanda poduvom, kovapaduvom, aana kadasiya un kooda pesama ennala iruka mudiyathu. sanda potutu nee vatuku pesa mudiyathunu poiruva neeyala feel panna maata naantha feel panitu irupa. Nee pesama pogumothala enaku evlo kadupagum theriyuma ivane ipdii pogumothu naa ena ithuku poi thirumba pesanumnu thonum but unnaya maari enala frd kitta pesamala iruka mudiyathu. Innimel ipdila sanda podatha next time la akka vanthu samathanam panitu la iruka maata okiee 😤😤😤 be carefullllllll.
+
+Unakku ego konjam jasthi thaan da. Sanda vantha kooda naantha first vanthh pesanumnu nenaipa. Enakum ego iruku en old scl ahh sanda potu 3 4 naal elathayum kenja vitutu tha thirumba pesuva avlo ego enakum iruku but en ego vida un mela iruka paasam thaan enaku perusu. Athaala thaan kovam irunthalum naane thirumba vandhu pesuren. Athukunu summa ela time um naane vanthu pesuvanu romba pannatha .
+
+Un kooda sandai podurathum, samadhanam aagurathum, thirumba sandai podurathum... ithu ellam inimeyum thodaranum. Namma sandai ellam 5 nimisham thaan, aprom thirumba normal aayiduvom. Athu thaan namma friendship oda bond uhh🫂.
+
+Happy birthday daa, venna mavaney! Neeyala en porantha nu apo apo thonum, unnaya vita naane kola panniralanu thonum. Aana unmaya sollanum na, nee illama enaku oru naal kooda odathu da. Un tholla, un mokka joke, un over buildup ellam illana en life eh bore thaan. Ipdi ye en kooda sandai potute, sirichute iru da. Happy birthday venna 🤗
+
+Always your friend,</div>
+<div class="buttons"><button class="btn light" onclick="show('gifts')">← BACK</button><button class="btn" onclick="show('photos')">NEXT: PHOTOS →</button></div>
+</section>
+<section id="photos" class="hidden">
+<div class="photo-page">
+<p class="album-kicker">♡ LITTLE MEMORIES ♡</p>
+<h1 contenteditable="false" data-save="photos-heading">some cool photos</h1>
+
+<div class="photo-line">
+<label class="photo-frame"><img id="photo-preview-0" alt="Your photo 1" src="assets/friend-photo-1.jpg"></label>
+<label class="photo-frame"><img id="photo-preview-1" alt="Your photo 2" src="assets/friend-photo-2.jpg"></label>
+<label class="photo-frame"><img id="photo-preview-2" alt="Your photo 3" src="assets/friend-photo-3.jpg"></label>
+<label class="photo-frame"><img id="photo-preview-3" alt="Your photo 4" src="assets/friend-photo-4.jpg"></label>
+</div>
+<div class="buttons"><button class="btn light" onclick="show('letter')">← BACK TO LETTER</button><button class="btn" onclick="show('final')">FINISH →</button></div>
+</div>
+</section>
+<section id="final" class="hidden"><div class="final-card"><div class="final-message" contenteditable="false" data-save="final-message">May all the good things you've been waiting for finally find you this year 🤗</div><img class="final-mocha" src="assets/memory-phone-bear.png" alt="Mocha, the brown bear cartoon"><div class="buttons final-controls"><button class="btn light" onclick="show('photos')">← BACK TO PHOTOS</button><button class="btn" onclick="show('intro')">START AGAIN ↻</button></div></div></section>
+</main><script>
+function saveAllChanges(){lockEditing();}
+function show(id){document.querySelectorAll('main section').forEach(s=>s.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'});}
+const giftNames=['Unexpected friendship','brother from another mother','besties for restie'];const giftMessages=['you came as an unexpected person in my life but now you are the most important person in my life','Having your own brother is good , but having a brother from another mother is such a blessing because he will be a both a brother and a best friend at the same time',"grateful that you've always stayed the same with me ,never different never fake from the start to until here"];let currentGift=0;function openGift(n){currentGift=Math.max(0,Math.min(2,Number(n)||0));const nextBtn=document.getElementById('next-gift-btn');if(nextBtn)nextBtn.textContent=currentGift===2?'BACK TO GIFTS →':'NEXT GIFT →';const title=document.getElementById('gift-title');title.dataset.save='gift-title-'+currentGift;title.textContent=giftNames[currentGift];const el=document.getElementById('gift-text');el.dataset.key='gift-'+currentGift;el.textContent=giftMessages[currentGift];const box=document.getElementById('opening-present');box.classList.remove('open');void box.offsetWidth;box.classList.add('open');show('gift-open');}
+function nextGift(){if(currentGift<2)openGift(currentGift+1);else show('gifts');}
+// Ensure the supplied final letter replaces any older locally saved placeholder.
+localStorage.setItem('birthday-letter-text', document.getElementById('letter-text').textContent);
+document.querySelectorAll('[contenteditable="false"]').forEach(el=>{let key=el.dataset.save;if(key&&localStorage.getItem('birthday-'+key))el.textContent=localStorage.getItem('birthday-'+key);el.addEventListener('input',()=>{let k=el.dataset.save||el.dataset.key;if(k)localStorage.setItem('birthday-'+k,el.textContent);});});const giftTextEl=document.getElementById('gift-text');if(giftTextEl)giftTextEl.addEventListener('input',e=>localStorage.setItem('birthday-gift-'+currentGift,e.target.textContent));
+const giftTitleEl=document.getElementById('gift-title');if(giftTitleEl)giftTitleEl.addEventListener('input',e=>localStorage.setItem('birthday-gift-title-'+currentGift,e.target.textContent));
+
+const memories=[{image:'assets/memory-phone-bear.png',alt:'Brown bear holding a phone, cut out from the provided reference',title:'DESCRIBE HIM',caption:'konjom loosu ana gem nga 💎'},{image:'assets/memory-birthday-duo.png',alt:'White bear and brown bear celebrating beside a gift box, cut out from the provided reference',title:'OUR BOND',caption:'the one who gives both good frd and brother feel🤌'},{image:'assets/memory-hug-reading.png',alt:'White bear hugging a brown bear reading a blue book, cut out from the provided reference',title:'OUR FRIENDSHIP',caption:'daily sanda poduvom😤 ,daily um kochupom😒 but still bestest frddd🫂!!'}];let memoryIndex=0;function setMemory(n){memoryIndex=Math.max(0,Math.min(memories.length-1,Number(n)||0));const m=memories[memoryIndex];const art=document.getElementById('memory-character');art.src=m.image;art.alt=m.alt;document.getElementById('memory-title').textContent=m.title;document.getElementById('memory-number').textContent='MEMORY 0'+(memoryIndex+1)+' / 03';const cap=document.getElementById('memory-caption');cap.dataset.save='memory-caption-'+memoryIndex;cap.textContent=localStorage.getItem('birthday-memory-caption-'+memoryIndex)||m.caption;document.querySelectorAll('.album-dot').forEach((d,i)=>d.classList.toggle('active',i===memoryIndex));document.querySelectorAll('.album-arrow').forEach((b,i)=>{b.disabled=(i===0&&memoryIndex===0)||(i===1&&memoryIndex===memories.length-1);b.style.opacity=b.disabled?'.4':'1';b.style.cursor=b.disabled?'default':'pointer';});}function changeMemory(step){const next=memoryIndex+Number(step);if(next>=0&&next<memories.length)setMemory(next)}document.addEventListener('DOMContentLoaded',()=>setMemory(0));
+
+
+
+// This delivered version is locked: all text and photo upload controls are non-editable.
+function lockEditing(){document.querySelectorAll('[contenteditable]').forEach(el=>{el.setAttribute('contenteditable','false');el.removeAttribute('data-placeholder');});const save=document.getElementById('save-changes');if(save)save.style.display='none';document.querySelectorAll('.photo-frame input,.photo-prompt').forEach(el=>el.style.display='none');}
+lockEditing();
+
+</script></body></html>
